@@ -14,3 +14,7 @@ For v0.5 ->  v0.9, Setup a web server and web site. (Most likely Azure or AWS)
 The web site becomes the frontend client controlling the connection and communication between the client.
 On the website, a user makes an account and connects the client (Pi code) to their account on the server. 
 They provide their facial data through the website now, and it's pushed to Pi.
+
+
+
+Currently working on V0.2 Recognizes faces without motion and pushes notification to mobile device.
