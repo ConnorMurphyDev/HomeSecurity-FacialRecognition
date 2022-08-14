@@ -17,7 +17,7 @@ from PushNotification import *
 video_capture = cv2.VideoCapture(0)
 
 # Import a facial image and learn to identify it.
-connor_image = face_recognition.load_image_file("Connor1.jpg")
+connor_image = face_recognition.load_image_file("InitialDataset/Connor1.jpg")
 connor_face_encoding = face_recognition.face_encodings(connor_image)[0]
 
 # Create arrays of known face encodings and their names. Add more later by simply adding a comma between names.
